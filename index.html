@@ -21,6 +21,7 @@
     --gold: #a7802f;
     --brass: #ae8b4e;
     --pine: #24362d;
+    --magenta: #ff2e92;
     --shadow: 0 14px 32px rgba(43, 33, 25, .12);
     --serif: Georgia, "Times New Roman", serif;
     --sans: "Helvetica Neue", Arial, system-ui, sans-serif;
@@ -129,6 +130,8 @@
   }
   .book-card.it .mark { color: var(--red); }
   .book-card.shining .mark { color: var(--pine); }
+  .book-card.expanse { border-top-color: var(--magenta); }
+  .book-card.expanse .mark { color: var(--magenta); font-size: 1.35rem; }
   .meta { min-width: 0; }
   .author {
     margin: 0 0 4px;
@@ -215,10 +218,21 @@
         <span class="open">Open timeline</span>
       </a>
     </li>
+    <li>
+      <a class="book-card expanse" href="leviathan-wakes.html">
+        <span class="mark" aria-hidden="true">LW</span>
+        <span class="meta">
+          <p class="author">James S. A. Corey</p>
+          <h2>Leviathan Wakes</h2>
+          <p class="blurb">A missing heiress and a destroyed ice hauler, told chapter by chapter from the Scopuli to Venus.</p>
+        </span>
+        <span class="open">Open timeline</span>
+      </a>
+    </li>
   </ul>
 </main>
 <footer>
-  <p>Two reader timelines. More books can be added to this list.</p>
+  <p>Three reader timelines. More books can be added to this list.</p>
 </footer>
 </body>
 </html>
